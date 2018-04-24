@@ -35,5 +35,5 @@ for s in score_dict:
     hover.point_policy = "follow_mouse"
     hover.tooltips = [("Name:", "@name"), ("%s:"%s, "@%s"%s)]
     
-    output_file("../Updated Website/templates/%s.html" %s)
+    output_file("../Updated Website/%s.html" %s)
     save(p)
