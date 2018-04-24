@@ -9,7 +9,7 @@ from bokeh.palettes import Viridis11
 
 score_dict = {'Haz_Score':['Flood_Per', 'Heat_Per', 'Liq_Per'], 
 'Env_Score':['Imp_Per', 'Tree_Per', 'PM_Conc', 'Tox_Per'], 
-'Trans_Sco':['AT_Min', 'PTrans_Sco'], 
+'Trans_Score':['AT_Min', 'PTrans_Sco'], 
 'Com_Score':['VCrim_Rate', 'Vot_Rate', 'NewSF_Per', 'Citz_Per', 'Eng_Per'], 
 'PR_Score':['Food_Score', 'HS_Per', 'Pharm_Per'],
 'House_Score':['LivAl_Per', 'EldLivAl_Per', 'OC_Per', 'Viol_Rate', 'AC_Per', 'Rent_Per'], 
